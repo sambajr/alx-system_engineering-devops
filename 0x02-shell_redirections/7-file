@@ -1,0 +1,10 @@
+#!/bin/bash
+
+filename='\*\\\'"Best School"\''\\*$?******:)'
+
+# Create the file with the desired name
+echo -e "Best School\n" > "$filename"
+
+# Display a success message
+echo "File '$filename' created successfully."
+
